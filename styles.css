@@ -9,7 +9,7 @@ h1 {
     color: black;
     text-align: center;
     background-image: linear-gradient(to right, #FDF7C3, #B2A4FF);
-    padding: 10px;
+    padding: 20px;
 }
 
 .container {
@@ -22,7 +22,11 @@ h1 {
 
 .item {
     /* border: 2px solid black; */
-    border-radius: 5px;
+    border-radius: 10px;
+    /* box-shadow: 10px 10px rgb(178, 164, 255, 0.5); */
+    /* transform: translate3d(10px, 10px, 10px); */
+    /* background-image: linear-gradient(to right, #FDF7C3, #B2A4FF); */
+
 }
 
 .one {
@@ -33,6 +37,17 @@ h1 {
 .two {
     grid-area: 2 / 2 / 5 / 3;
     background-color: #FFB4B4;
+
+}
+
+img {
+    width: 520px;
+    /* float: right; */
+    margin: 20px;
+    padding: 5px;
+    /* border: 3px solid #B0DAFF; */
+    border-radius: 15px;
+    visibility: hidden;
 }
 
 .three {
