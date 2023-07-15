@@ -15,8 +15,8 @@ h1 {
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    height: 200vh;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 350vh;
     gap: 5px;
 }
 
@@ -39,11 +39,12 @@ h1 {
 .one>img {
     width: 200px;
     /* float: right; */
-    margin: 20px;
+    /* margin: 20px; */
     margin-left: 40px;
+    margin-bottom: 20px;
     padding: 25px;
     width: 10em;
-    height: 12em;
+    height: 13em;
     border-radius: 5px;
     /* border: 3px solid #B0DAFF; */
     visibility: hidden;
@@ -68,7 +69,7 @@ h1 {
     /* float: right; */
     margin: 20px;
     padding: 15px;
-    height: 22em;
+    height: 20em;
     border-radius: 5px;
     /* border: 3px solid #B0DAFF; */
     visibility: hidden;
@@ -92,7 +93,7 @@ h1 {
     /* float: right; */
     margin: 20px;
     padding: 15px;
-    height: 22em;
+    height: 20em;
     border-radius: 15px;
     /* border: 3px solid #B0DAFF; */
     visibility: hidden;
@@ -109,7 +110,7 @@ h1 {
 
 .four {
     grid-area: 3 / 1 / 6 / 2;
-    background-color: #FDF7C3;
+    background-color: #FFDEB4;
 }
 
 
@@ -118,7 +119,7 @@ h1 {
     /* float: right; */
     margin: 20px;
     padding: 15px;
-    height: 22em;
+    height: 21em;
     width: 15em;
     border-radius: 15px;
     /* border: 3px solid #B0DAFF; */
@@ -128,7 +129,7 @@ h1 {
 
 .four2 {
     grid-area: 3 / 1 / 6 / 2;
-    background-color: #FDF7C3;
+    background-color: #FFDEB4;
     visibility: hidden;
     text-align: center;
     padding-top: 10em;
@@ -168,7 +169,7 @@ h1 {
 
 .seven {
     grid-area: 5 / 2 / 7 / 3;
-    background-color: #FFDEB4;
+    background-color: #FDF7C3;
 }
 
 .eight {
@@ -303,14 +304,157 @@ h1 {
     padding-top: 8em;
 }
 
-.thirteen {
+/* .thirteen {
     grid-area: 6 / 2 / 7 / 3;
-    background-color: #FDF7C3;
-}
+    background-color: #464009;
+} */
 
 .fourteen {
     grid-area: 10 / 2 / 11 / 3;
     background-color: #FFDEB4;
+}
+
+.fifteen {
+    grid-area: 11 / 1 / 13 / 2;
+    background-color: #B2A4FF;
+
+}
+
+
+.fifteen>img {
+    width: 200px;
+    /* float: right; */
+    /* margin: 20px; */
+    margin-left: 40px;
+    margin-bottom: 20px;
+    padding: 25px;
+    width: 10em;
+    height: 13em;
+    border-radius: 5px;
+    /* border: 3px solid #B0DAFF; */
+    visibility: hidden;
+}
+
+.fifteen2 {
+    grid-area: 11 / 1 / 13 / 2;
+    background-color: #B2A4FF;
+    visibility: hidden;
+    text-align: center;
+    padding-top: 5em;
+}
+
+.sixteen {
+    grid-area: 12 / 2 / 15 / 3;
+    background-color: #FFB4B4;
+
+}
+
+.sixteen>img {
+    width: 520px;
+    /* float: right; */
+    margin: 20px;
+    padding: 15px;
+    height: 20em;
+    border-radius: 5px;
+    /* border: 3px solid #B0DAFF; */
+    visibility: hidden;
+}
+
+.sixteen2 {
+    grid-area: 12 / 2 / 15 / 3;
+    background-color: #FFB4B4;
+    visibility: hidden;
+    text-align: center;
+    padding-top: 10em;
+}
+
+.seventeen {
+    grid-area: 11 / 3 / 14 / 4;
+    background-color: #FFDEB4;
+}
+
+.seventeen>img {
+    width: 520px;
+    /* float: right; */
+    margin: 20px;
+    padding: 15px;
+    height: 20em;
+    border-radius: 15px;
+    /* border: 3px solid #B0DAFF; */
+    visibility: hidden;
+}
+
+
+.seventeen2 {
+    grid-area: 11 / 3 / 14 / 4;
+    background-color: #FFDEB4;
+    visibility: hidden;
+    text-align: center;
+    padding-top: 10em;
+}
+
+.eighteen {
+    grid-area: 13 / 1 / 16 / 2;
+    background-color: #FFDEB4;
+}
+
+
+.eighteen>img {
+    width: 520px;
+    /* float: right; */
+    margin: 20px;
+    padding: 15px;
+    height: 21em;
+    width: 15em;
+    border-radius: 15px;
+    /* border: 3px solid #B0DAFF; */
+    visibility: hidden;
+}
+
+
+.eighteen2 {
+    grid-area: 13 / 1 / 16 / 2;
+    background-color: #FFDEB4;
+    visibility: hidden;
+    text-align: center;
+    padding-top: 10em;
+}
+
+.nineteen {
+    grid-area: 14 / 3 / 16 / 4;
+    background-color: #B2A4FF;
+}
+
+.nineteen>img {
+    width: 520px;
+    /* float: right; */
+    margin: 20px;
+    padding: 15px;
+    margin-left: 7em;
+    height: 13em;
+    width: 20em;
+    border-radius: 15px;
+    /* border: 3px solid #B0DAFF; */
+    visibility: hidden;
+}
+
+
+.nineteen2 {
+    grid-area: 14 / 3 / 16 / 4;
+    background-color: #B2A4FF;
+    visibility: hidden;
+    text-align: center;
+    padding-top: 8em;
+}
+
+.twenty {
+    grid-area: 10 / 2 / 12 / 3;
+    background-color: #FDF7C3;
+}
+
+.twentyOne {
+    grid-area: 15 / 2 / 17 / 3;
+    background-color: #FDF7C3;
 }
 
 /* @media (max-width: 768px) {
