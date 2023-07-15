@@ -32,6 +32,29 @@ h1 {
 .one {
     grid-area: 1 / 1 / 3 / 2;
     background-color: #B2A4FF;
+
+}
+
+
+.one>img {
+    width: 200px;
+    /* float: right; */
+    margin: 20px;
+    margin-left: 40px;
+    padding: 25px;
+    width: 10em;
+    height: 12em;
+    border-radius: 5px;
+    /* border: 3px solid #B0DAFF; */
+    visibility: hidden;
+}
+
+.one2 {
+    grid-area: 1 / 1 / 3 / 2;
+    background-color: #B2A4FF;
+    visibility: hidden;
+    text-align: center;
+    padding-top: 5em;
 }
 
 .two {
@@ -51,6 +74,19 @@ h1 {
     visibility: hidden;
 }
 
+.two2 {
+    grid-area: 2 / 2 / 5 / 3;
+    background-color: #FFB4B4;
+    visibility: hidden;
+    text-align: center;
+    padding-top: 10em;
+}
+
+.three {
+    grid-area: 1 / 3 / 4 / 4;
+    background-color: #FFDEB4;
+}
+
 .three>img {
     width: 520px;
     /* float: right; */
@@ -62,11 +98,6 @@ h1 {
     visibility: hidden;
 }
 
-
-.three {
-    grid-area: 1 / 3 / 4 / 4;
-    background-color: #FFDEB4;
-}
 
 .three2 {
     grid-area: 1 / 3 / 4 / 4;
@@ -81,9 +112,53 @@ h1 {
     background-color: #FDF7C3;
 }
 
+
+.four>img {
+    width: 520px;
+    /* float: right; */
+    margin: 20px;
+    padding: 15px;
+    height: 22em;
+    width: 15em;
+    border-radius: 15px;
+    /* border: 3px solid #B0DAFF; */
+    visibility: hidden;
+}
+
+
+.four2 {
+    grid-area: 3 / 1 / 6 / 2;
+    background-color: #FDF7C3;
+    visibility: hidden;
+    text-align: center;
+    padding-top: 10em;
+}
+
 .five {
     grid-area: 4 / 3 / 6 / 4;
     background-color: #B2A4FF;
+}
+
+.five>img {
+    width: 520px;
+    /* float: right; */
+    margin: 20px;
+    padding: 15px;
+    margin-left: 7em;
+    height: 13em;
+    width: 20em;
+    border-radius: 15px;
+    /* border: 3px solid #B0DAFF; */
+    visibility: hidden;
+}
+
+
+.five2 {
+    grid-area: 4 / 3 / 6 / 4;
+    background-color: #B2A4FF;
+    visibility: hidden;
+    text-align: center;
+    padding-top: 8em;
 }
 
 .six {
