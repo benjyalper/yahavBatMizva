@@ -74,5 +74,34 @@ $('.five').on("click", function () {
         }, 3000);
 });
 
+var eight = '.eight';
+var animateCard = function () {
+    $(`${eight}`).addClass('animate__flipInY');
+    $('.eight>img').css('visibility', 'visible');
+    setTimeout(
+        function () {
+            $('.eight').addClass('animate__zoomOut');
+        }, 2500);
+    setTimeout(
+        function () {
+            $('.eight2').css('visibility', 'visible');
+            $('.eight2').addClass('animate__zoomIn');
+        }, 3000);
+}
+
+$('.eight').on("click", animateCard
+    // $('.eight').addClass('animate__flipInY');
+    // $('.eight>img').css('visibility', 'visible');
+    // setTimeout(
+    //     function () {
+    //         $('.eight').addClass('animate__zoomOut');
+    //     }, 2500);
+    // setTimeout(
+    //     function () {
+    //         $('.eight2').css('visibility', 'visible');
+    //         $('.eight2').addClass('animate__zoomIn');
+    //     }, 3000);
+);
+
 
 
