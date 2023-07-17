@@ -136,7 +136,7 @@ h1 {
 }
 
 .five {
-    grid-area: 4 / 3 / 6 / 4;
+    grid-area: 4 / 3 / 7 / 4;
     background-color: #B2A4FF;
 }
 
@@ -155,7 +155,7 @@ h1 {
 
 
 .five2 {
-    grid-area: 4 / 3 / 6 / 4;
+    grid-area: 4 / 3 / 7 / 4;
     background-color: #B2A4FF;
     visibility: hidden;
     text-align: center;
@@ -168,12 +168,12 @@ h1 {
 }
 
 .seven {
-    grid-area: 5 / 2 / 7 / 3;
+    grid-area: 5 / 2 / 8 / 3;
     background-color: #FDF7C3;
 }
 
 .eight {
-    grid-area: 6 / 1 / 8 / 2;
+    grid-area: 6 / 1 / 9 / 2;
     background-color: #B2A4FF;
 
 }
@@ -193,7 +193,7 @@ h1 {
 }
 
 .eight2 {
-    grid-area: 6 / 1 / 8 / 2;
+    grid-area: 6 / 1 / 9 / 2;
     background-color: #B2A4FF;
     visibility: hidden;
     text-align: center;
@@ -201,7 +201,7 @@ h1 {
 }
 
 .nine {
-    grid-area: 7 / 2 / 10 / 3;
+    grid-area: 8 / 2 / 10 / 3;
     background-color: #FFB4B4;
 
 }
@@ -218,7 +218,7 @@ h1 {
 }
 
 .nine2 {
-    grid-area: 7 / 2 / 10 / 3;
+    grid-area: 8 / 2 / 10 / 3;
     background-color: #FFB4B4;
     visibility: hidden;
     text-align: center;
@@ -226,7 +226,7 @@ h1 {
 }
 
 .ten {
-    grid-area: 6 / 3 / 9 / 4;
+    grid-area: 7 / 3 / 9 / 4;
     background-color: #FFDEB4;
 }
 
@@ -251,8 +251,8 @@ h1 {
 }
 
 .eleven {
-    grid-area: 8 / 1 / 11 / 2;
-    background-color: #FDF7C3;
+    grid-area: 9 / 1 / 11 / 2;
+    background-color: #FFDEB4;
 }
 
 
