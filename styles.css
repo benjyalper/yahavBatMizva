@@ -173,6 +173,13 @@ h1 {
 .six {
     grid-area: 1 / 2 / 2 / 4;
     background-color: #FDF7C3;
+    display: flex;
+    justify-content: center;
+}
+
+.six>* {
+    color: #B2A4FF;
+    margin-top: 1em;
 }
 
 .seven {
