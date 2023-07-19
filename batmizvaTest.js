@@ -105,5 +105,131 @@ var animateCard = function () {
 
 $(eight).on("click", animateCard);
 
+$('.nine').on("click", function () {
+    $('.nine').addClass('animate__flipInY');
+    $('.nine>img').css('visibility', 'visible');
+    setTimeout(
+        function () {
+            $('.nine').addClass('animate__zoomOut');
+        }, 2500);
+    setTimeout(
+        function () {
+            $('.nine2').css('visibility', 'visible');
+            $('.nine2').addClass(`${inAnimate[5]}`);
+        }, 3000);
+});
+
+$('.ten').on("click", function () {
+    $('.ten').addClass('animate__flipInY');
+    $('.ten>img').css('visibility', 'visible');
+    setTimeout(
+        function () {
+            $('.ten').addClass('animate__zoomOut');
+        }, 2500);
+    setTimeout(
+        function () {
+            $('.ten2').css('visibility', 'visible');
+            $('.ten2').addClass(`${inAnimate[5]}`);
+        }, 3000);
+});
+
+$('.eleven').on("click", function () {
+    $('.eleven').addClass('animate__flipInY');
+    $('.eleven>img').css('visibility', 'visible');
+    setTimeout(
+        function () {
+            $('.eleven').addClass('animate__zoomOut');
+        }, 2500);
+    setTimeout(
+        function () {
+            $('.eleven2').css('visibility', 'visible');
+            $('.eleven2').addClass(`${inAnimate[5]}`);
+        }, 3000);
+});
+
+$('.twelve').on("click", function () {
+    $('.twelve').addClass('animate__flipInY');
+    $('.twelve>img').css('visibility', 'visible');
+    setTimeout(
+        function () {
+            $('.twelve').addClass('animate__zoomOut');
+        }, 2500);
+    setTimeout(
+        function () {
+            $('.twelve2').css('visibility', 'visible');
+            $('.twelve2').addClass(`${inAnimate[5]}`);
+        }, 3000);
+});
+
+$('.sixteen').on("click", function () {
+    $('.sixteen').addClass('animate__flipInY');
+    $('.sixteen>img').css('visibility', 'visible');
+    setTimeout(
+        function () {
+            $('.sixteen').addClass('animate__zoomOut');
+        }, 2500);
+    setTimeout(
+        function () {
+            $('.sixteen2').css('visibility', 'visible');
+            $('.sixteen2').addClass(`${inAnimate[5]}`);
+        }, 3000);
+});
+
+$('.seventeen').on("click", function () {
+    $('.seventeen').addClass('animate__flipInY');
+    $('.seventeen>img').css('visibility', 'visible');
+    setTimeout(
+        function () {
+            $('.seventeen').addClass('animate__zoomOut');
+        }, 2500);
+    setTimeout(
+        function () {
+            $('.seventeen2').css('visibility', 'visible');
+            $('.seventeen2').addClass(`${inAnimate[5]}`);
+        }, 3000);
+});
+
+$('.eighteen').on("click", function () {
+    $('.eighteen').addClass('animate__flipInY');
+    $('.eighteen>img').css('visibility', 'visible');
+    setTimeout(
+        function () {
+            $('.eighteen').addClass('animate__zoomOut');
+        }, 2500);
+    setTimeout(
+        function () {
+            $('.eighteen2').css('visibility', 'visible');
+            $('.eighteen2').addClass(`${inAnimate[5]}`);
+        }, 3000);
+});
+
+$('.nineteen').on("click", function () {
+    $('.nineteen').addClass('animate__flipInY');
+    $('.nineteen>img').css('visibility', 'visible');
+    setTimeout(
+        function () {
+            $('.nineteen').addClass('animate__zoomOut');
+        }, 2500);
+    setTimeout(
+        function () {
+            $('.nineteen2').css('visibility', 'visible');
+            $('.nineteen2').addClass(`${inAnimate[5]}`);
+        }, 3000);
+});
+
+$('.thirteen').on("click", function () {
+    $('.thirteen').addClass('animate__flipInY');
+    $('.thirteen>img').css('visibility', 'visible');
+    setTimeout(
+        function () {
+            $('.thirteen').addClass('animate__zoomOut');
+        }, 2500);
+    setTimeout(
+        function () {
+            $('.thirteen2').css('visibility', 'visible');
+            $('.thirteen2').addClass(`${inAnimate[5]}`);
+        }, 3000);
+});
+
 
 

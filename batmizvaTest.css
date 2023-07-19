@@ -5,11 +5,20 @@
 #FDF7C3
 */
 
+body {
+    font-family: 'Roboto Mono', monospace;
+    color: #2c2364;
+    font-size: 18px;
+}
+
 h1 {
-    color: black;
+    color: #2c2364;
     text-align: center;
-    background-image: linear-gradient(to right, #FDF7C3, #B2A4FF);
-    padding: 20px;
+    background-image: linear-gradient(to right, #FFDEB4, #FFB4B4, #FDF7C3, #B2A4FF);
+    padding: 50px;
+    border-radius: 10px;
+    width: auto;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .container {
@@ -21,7 +30,7 @@ h1 {
 }
 
 .item {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 10px;
     /* box-shadow: 10px 10px rgb(178, 164, 255, 0.5); */
     /* transform: translate3d(10px, 10px, 10px); */
@@ -54,7 +63,7 @@ h1 {
     background-color: #B2A4FF;
     visibility: hidden;
     text-align: center;
-    padding-top: 5em;
+    padding-top: 1em;
 }
 
 .two {
@@ -79,7 +88,7 @@ h1 {
     background-color: #FFB4B4;
     visibility: hidden;
     text-align: center;
-    padding-top: 10em;
+    padding: 5em;
 }
 
 .three {
@@ -88,11 +97,11 @@ h1 {
 }
 
 .three>img {
-    width: 520px;
+    width: 320px;
     /* float: right; */
     margin: 20px;
     padding: 15px;
-    height: 20em;
+    height: 17em;
     border-radius: 15px;
     /* border: 3px solid #B0DAFF; */
     visibility: hidden;
@@ -104,7 +113,7 @@ h1 {
     background-color: #FFDEB4;
     visibility: hidden;
     text-align: center;
-    padding-top: 10em;
+    padding-top: 2em;
 }
 
 .four {
@@ -221,7 +230,7 @@ h1 {
     background-color: #FFB4B4;
     visibility: hidden;
     text-align: center;
-    padding-top: 10em;
+    padding: 5em;
 }
 
 .ten {
@@ -233,7 +242,8 @@ h1 {
     width: 520px;
     /* float: right; */
     margin: 20px;
-    padding: 15px;
+    margin-left: 80px;
+    padding: 2em;
     height: 22em;
     border-radius: 15px;
     /* border: 3px solid #B0DAFF; */
@@ -242,11 +252,11 @@ h1 {
 
 
 .ten2 {
-    grid-area: 6 / 3 / 9 / 4;
+    grid-area: 8 / 2 / 9 / 4;
     background-color: #FFDEB4;
     visibility: hidden;
     text-align: center;
-    padding-top: 10em;
+    padding: 10em;
 }
 
 .eleven {
@@ -308,6 +318,28 @@ h1 {
     background-color: #FDF7C3;
 }
 
+.thirteen>img {
+    width: 520px;
+    /* float: right; */
+    margin: 20px;
+    padding: 15px;
+    margin-left: 7em;
+    height: 13em;
+    width: 20em;
+    border-radius: 15px;
+    /* border: 3px solid #B0DAFF; */
+    visibility: hidden;
+}
+
+.thirteen2 {
+    grid-area: 12 / 4 / 16 / 5;
+    background-color: #FDF7C3;
+    visibility: hidden;
+    text-align: center;
+    padding-top: 8em;
+}
+
+
 /* .fourteen {
     grid-area: 10 / 2 / 11 / 3;
     background-color: #FFDEB4;
@@ -360,7 +392,7 @@ h1 {
 }
 
 .sixteen2 {
-    grid-area: 12 / 2 / 15 / 3;
+    grid-area: 13 / 2 / 16 / 3;
     background-color: #FFB4B4;
     visibility: hidden;
     text-align: center;
@@ -385,7 +417,7 @@ h1 {
 
 
 .seventeen2 {
-    grid-area: 11 / 3 / 14 / 4;
+    grid-area: 11 / 3 / 15 / 4;
     background-color: #FFDEB4;
     visibility: hidden;
     text-align: center;
@@ -439,7 +471,7 @@ h1 {
 
 
 .nineteen2 {
-    grid-area: 14 / 3 / 16 / 4;
+    grid-area: 15 / 3 / 16 / 4;
     background-color: #B2A4FF;
     visibility: hidden;
     text-align: center;
