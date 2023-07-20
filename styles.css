@@ -58,13 +58,13 @@ h1 {
     visibility: hidden;
 }
 
-.one2 {
+/* .one2 {
     grid-area: 1 / 1 / 4 / 2;
     background-color: #B2A4FF;
     visibility: hidden;
     text-align: center;
     padding-top: 4em;
-}
+} */
 
 .two {
     grid-area: 2 / 2 / 5 / 4;
@@ -92,6 +92,7 @@ h1 {
     padding: 5em;
 }
 
+/*morgan*/
 .three {
     grid-area: 1 / 4 / 5 / 5;
     background-color: #FFDEB4;
@@ -514,6 +515,8 @@ h1 {
         flex-direction: column;
         gap: 5px;
     }
+
+
 
     /* .item {
         height: auto;

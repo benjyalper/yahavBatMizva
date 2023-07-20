@@ -7,8 +7,14 @@ $('.one').on("click", function () {
         }, 2500);
     setTimeout(
         function () {
-            $('.one2').css('visibility', 'visible');
-            $('.one2').addClass(`${inAnimate[5]}`);
+            // $('.one2').css('visibility', 'visible');
+            // $('.one2').addClass(`${inAnimate[5]}`);
+            $('.one').after(`<div class="item one2 animate__animated animate__flipInY" style="grid-area: 1 / 1 / 4 / 2;
+            background-color: #B2A4FF; text-align: center; padding-top: 4em;">יהב שלי, מתוקה שלי, נכדה שלי. מאחלת לך שתמשיכי להיות כזו
+            מקסימה,
+            שתהיי תלמידה טובה, אחות טובה, בת טובה להורים, שתצליחי בחטיבת הביניים, שזה כבר יותר מבית ספר יסודי,
+            ולא
+            לעשות שיעורים באמצע הלילה, איך שחוזרים הבייתה עושים שיעורים! מאחלת באהבה, סבתא אסי </div>`)//add style and script
         }, 3000);
 });
 
@@ -38,11 +44,23 @@ $('.three').on('click', function () {
 
     setTimeout(
         function () {
-            $('.three2').css('visibility', 'visible');
-            $('.three2').addClass(`${inAnimate[3]}`);
+            // $('.three2').css('visibility', 'visible');
+            // $('.three2').addClass(`${inAnimate[3]}`);
             // $('.three').after(`<div class="item three2 animate__animated animate__zoomIn" style="grid-area: 1 / 3 / 4 / 4; background-color: #FFDEB4;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga incidunt accusantium
             // magnam ut at architecto, nisi eligendi? Molestiae recusandae, sunt ducimus quo eaque cupiditate
             // voluptates nostrum? Vel aut praesentium tempore.</div>`);
+            $('.three').after(`<div class="item three2  animate__animated animate__fadeInRight" style="grid-area: 1 / 4 / 5 / 5;
+            background-color: #FFDEB4;
+            text-align: center;
+            padding-top: 2em;">Dear Yahav
+
+            Please except our best wishes for reaching this important stage in your life. With the help of your
+            parents, family and friends, I’m sure you will continue to grow into a wonderful person.
+            Morgan and I are sure you will have a great time celebrating and wish we could be there to celebrate
+            with you. So, we hope you save some fun times for when we come to Israel again.
+            All the best health, wealth and joy in all your future endeavors.
+            Love,
+            Tammy @ Morgan</div>`)
         }, 3000);
 });
 
