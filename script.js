@@ -28,8 +28,15 @@ $('.two').on("click", function () {
         }, 2500);
     setTimeout(
         function () {
-            $('.two2').css('visibility', 'visible');
-            $('.two2').addClass(`${inAnimate[4]}`);
+            // $('.two2').css('visibility', 'visible');
+            // $('.two2').addClass(`${inAnimate[4]}`);
+            $('.two').after(`<div class="item two2 animate__animated animate__flipInY"  style="grid-area: 2 / 2 / 5 / 4;
+            background-color: #FFB4B4;
+            text-align: center;
+            padding: 5em;">יהבי פיצי פוצפוץ יוביוב גורי שלנו! הגעת לגיל מיוחד, מקסים ומאתגר.
+            בשבילנו תמיד תהיי פיצי, את יודעת... אבל את גם מתבגרת ואנחנו גדלים יחד איתך. את ילדה/נערה/פילה מקסימה
+            ומיוחדת במינה. אנחנו גאים בך ואי-אפשר לתאר כמה אנחנו אוהבים אותך. תמשיכי להיות את, ואנחנו נמשיך להיות
+            איתך כמו שאת תמיד. אוהבים, מעריכים, מחבקים ומנשקים: אבא, אמא, אדר ומיצי! </div>`)
         }, 3000);
 });
 

@@ -84,13 +84,13 @@ h1 {
     visibility: hidden;
 }
 
-.two2 {
+/* .two2 {
     grid-area: 2 / 2 / 5 / 4;
     background-color: #FFB4B4;
     visibility: hidden;
     text-align: center;
     padding: 5em;
-}
+} */
 
 /*morgan*/
 .three {
@@ -110,13 +110,13 @@ h1 {
 }
 
 
-.three2 {
+/* .three2 {
     grid-area: 1 / 4 / 5 / 5;
     background-color: #FFDEB4;
     visibility: hidden;
     text-align: center;
     padding-top: 2em;
-}
+} */
 
 .four {
     grid-area: 4 / 1 / 7 / 2;
