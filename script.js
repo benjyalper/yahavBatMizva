@@ -124,10 +124,8 @@ var eight = '.eight';
 
 var inAnimate = ['animate__bounceInUp', 'animate__bounceInLeft', 'animate__fadeInRight', 'animate__fadeInUpBig', 'animate__zoomIn', 'animate__fadeInLeft']
 
-
-
-var animateCard = function () {
-    $(`${eight}`).addClass('animate__flipInY');
+$('.eight').on("click", function () {
+    $('.eight').addClass('animate__flipInY');
     $('.eight>img').css('visibility', 'visible');
     setTimeout(
         function () {
@@ -135,14 +133,24 @@ var animateCard = function () {
         }, 2500);
     setTimeout(
         function () {
-            $('.eight2').css('visibility', 'visible');
-            $('.eight2').addClass(inAnimate[0]);
+            // $('.eight2').css('visibility', 'visible');
+            // $('.eight2').addClass(`${inAnimate[1]}`);
+            $('.eight').after(`<div class="item eight2 animate__animated animate__bounceInLeft" style="grid-area: 7 / 1 / 9 / 2;
+            background-color: #B2A4FF;
+            text-align: center;
+            padding: 2em;">Yahav, you were my first granddaughter in Israel - from you I
+            learned how to be a grandmother. I sat on the floor with you while you threw different kinds of balls to
+            see what they would do and when you built Lego castles and played with different figures.
+            I have seen you cope with your younger brother and really admire the way the two of you get along
+            together now. I know how frustrating it was for you when you were younger and we always spoke English,
+            but now you are really doing well in English and we have all adapted - us to speaking more Hebrew and
+            you to understanding and speaking English. You are growing into a lovely young woman and I am very proud
+            of you.
+            With all my love,
+            Safta Naomi</div>`);
+            $('.eight').remove();
         }, 3000);
-}
-
-
-
-$(eight).on("click", animateCard);
+});
 
 $('.nine').on("click", function () {
     $('.nine').addClass('animate__flipInY');
@@ -153,8 +161,20 @@ $('.nine').on("click", function () {
         }, 2500);
     setTimeout(
         function () {
-            $('.nine2').css('visibility', 'visible');
-            $('.nine2').addClass(`${inAnimate[5]}`);
+            // $('.nine2').css('visibility', 'visible');
+            // $('.nine2').addClass(`${inAnimate[1]}`);
+            $('.nine').after(`<div class="item nine2  animate__animated animate__zoomIn" style="grid-area: 8 / 4 / 12 / 5;
+            background-color: #FFB4B4;
+            text-align: center;
+            padding: 3em;">יהב אחיינית ובת דודה אהובה ויקרה,
+            מאחלים לך שתאהבי תמיד את מי שאת בדיוק כמו שאת,
+            שתראי את הטוב והיופי סביבך,
+            תלמדי לאמץ לעצמך את מה שאת מעריכה ומוקירה ולסנן החוצה את מה שפחות,
+            תתגברי על אתגרים ותיגדלי מהם ותתפתחי להיות מי שאת רוצה להיות,
+            שתהיה לך מטרה ברורה ותהני מהדרך אליה וגם אם לא תהיה שתשמחי על מה שיש.
+            אוהבים אותך מאוד ומצפים לראות אותך ממשיכה לצמוח ולפרוח,
+            רם, שולמית, אומה, אבישי ולב</div>`);
+            $('.nine').remove();
         }, 3000);
 });
 
@@ -167,8 +187,16 @@ $('.ten').on("click", function () {
         }, 2500);
     setTimeout(
         function () {
-            $('.ten2').css('visibility', 'visible');
-            $('.ten2').addClass(`${inAnimate[5]}`);
+            // $('.ten2').css('visibility', 'visible');
+            // $('.ten2').addClass(`${inAnimate[1]}`);
+            $('.ten').after(`<div class="item ten2 animate__animated animate__fadeInUpBig" style="grid-area: 8 / 2 / 9 / 4;
+            background-color: #FFDEB4;
+            text-align: center;
+            padding: 2em;">יהבי פיצי פוצפוץ יוביוב גורי שלנו! הגעת לגיל מיוחד, מקסים ומאתגר.
+            בשבילנו תמיד תהיי פיצי, את יודעת... אבל את גם מתבגרת ואנחנו גדלים יחד איתך. את ילדה/נערה/פילה מקסימה
+            ומיוחדת במינה. אנחנו גאים בך ואי-אפשר לתאר כמה אנחנו אוהבים אותך. תמשיכי להיות את, ואנחנו נמשיך להיות
+            איתך כמו שאת תמיד. אוהבים, מעריכים, מחבקים ומנשקים: אבא, אמא, אדר ומיצי!</div>`);
+            $('.ten').remove();
         }, 3000);
 });
 
@@ -181,8 +209,26 @@ $('.eleven').on("click", function () {
         }, 2500);
     setTimeout(
         function () {
-            $('.eleven2').css('visibility', 'visible');
-            $('.eleven2').addClass(`${inAnimate[5]}`);
+            // $('.eleven2').css('visibility', 'visible');
+            // $('.eleven2').addClass(`${inAnimate[1]}`);
+            $('.eleven').after(`<div class="item eleven2 animate__animated animate__bounceInUp" style=" grid-area: 9 / 1 / 13 / 3;
+            background-color: #FDF7C3;
+            text-align: center;
+            padding: 2em;">יהב האהובה והיקרה שלנו,
+            הגיע היום שלך,ואנחנו נרגשים, 12 שנים חלפו להן כל כך מהר, אנו מביטים בך ולא מאמינים כמה
+            גדלת.
+            הפכת מילדה מתוקה לנערה אצילית ומוכשרת ואת כולנו הקסמת.
+            שמחים לברך אותך לקראת הפרק החדש בחייך,
+            שתמיד תראי את הטוב והיפה
+            שתצליחי ותגשימי את כל משאלותייך, ובטוחים שתדעי לבחור את הדרך הנכונה לך ואת האנשים
+            שיכנסו לך אל תוך הלב וילוו אותך בהמשך הדרך.
+            תהני מהמסע המדהים הזה של החיים
+            מאחלים לך שפע של אור, צחוק, שמחה, והרבה רגעים של אושר
+            תמשיכי להאיר את העולם סביבך בדרך שכל כך ייחודית לך.
+            ותמיד תזכרי שהשמיים הם הגבול...
+            הדודים האוהבים
+            תומר נדיה אורי ונינה</div>`);
+            $('.eleven').remove();
         }, 3000);
 });
 
@@ -195,10 +241,42 @@ $('.twelve').on("click", function () {
         }, 2500);
     setTimeout(
         function () {
-            $('.twelve2').css('visibility', 'visible');
-            $('.twelve2').addClass(`${inAnimate[5]}`);
+            // $('.twelve2').css('visibility', 'visible');
+            // $('.twelve2').addClass(`${inAnimate[1]}`);
+            $('.twelve').after(`<div class="item twelve2 animate__animated animate__bounceInUp" style="grid-area: 9 / 3 / 11 / 4;
+            background-color: #B2A4FF;
+            text-align: center;
+            padding: 2em;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+            incidunt accusantium
+            magnam ut at architecto, nisi eligendi? Molestiae recusandae, sunt ducimus quo eaque cupiditate
+            voluptates nostrum? Vel aut praesentium tempore.</div>`);
+            $('.twelve').remove();
         }, 3000);
 });
+
+$('.thirteen').on("click", function () {
+    $('.thirteen').addClass('animate__flipInY');
+    $('.thirteen>img').css('visibility', 'visible');
+    setTimeout(
+        function () {
+            $('.thirteen').addClass('animate__zoomOut');
+        }, 2500);
+    setTimeout(
+        function () {
+            // $('.thirteen2').css('visibility', 'visible');
+            // $('.thirteen2').addClass(`${inAnimate[1]}`);
+            $('.thirteen').after(`<div class="item thirteen2 animate__animated animate__fadeInRight" style="grid-area: 12 / 4 / 16 / 5;
+            background-color: #FDF7C3;
+            text-align: center;
+            padding: 2em;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+            incidunt accusantium
+            magnam ut at architecto, nisi eligendi? Molestiae recusandae, sunt ducimus quo eaque cupiditate
+            voluptates nostrum? Vel aut praesentium tempore.</div>`);
+            $('.thirteen').remove();
+        }, 3000);
+});
+
+
 
 $('.sixteen').on("click", function () {
     $('.sixteen').addClass('animate__flipInY');
