@@ -100,8 +100,16 @@ $('.five').on("click", function () {
         }, 2500);
     setTimeout(
         function () {
-            $('.five2').css('visibility', 'visible');
-            $('.five2').addClass(`${inAnimate[1]}`);
+            // $('.five2').css('visibility', 'visible');
+            // $('.five2').addClass(`${inAnimate[1]}`);
+            $('.five').after(`<div class="item five2 animate__animated animate__fadeInLeft" style="grid-area: 5 / 3 / 8 / 5;
+            background-color: #B2A4FF;
+            text-align: center;
+            padding: 3em;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+            incidunt accusantium
+            magnam ut at architecto, nisi eligendi? Molestiae recusandae, sunt ducimus quo eaque cupiditate
+            voluptates nostrum? Vel aut praesentium tempore.</div>`);
+            $('.five').remove();
         }, 3000);
 });
 
