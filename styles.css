@@ -138,13 +138,13 @@ h1 {
 }
 
 
-.four2 {
+/* .four2 {
     grid-area: 4 / 1 / 7 / 2;
     background-color: #FFDEB4;
     visibility: hidden;
     text-align: center;
     padding-top: 3em;
-}
+} */
 
 .five {
     grid-area: 5 / 3 / 8 / 5;
@@ -514,6 +514,10 @@ h1 {
         display: flex;
         flex-direction: column;
         gap: 5px;
+    }
+
+    .two>img {
+        width: 200px;
     }
 
 
