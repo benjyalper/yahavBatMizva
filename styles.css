@@ -286,11 +286,16 @@ audio {
 
 .purple2>img {
     padding: 15px;
-    padding-left: 5em;
+    padding-left: 3em;
     height: 13em;
     width: 11em;
     border-radius: 15px;
     visibility: hidden;
+}
+
+.purple2 {
+    text-align: center;
+    font-size: 25px;
 }
 
 
