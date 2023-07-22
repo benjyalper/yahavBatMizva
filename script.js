@@ -1,64 +1,53 @@
-$('.one').on("click", function () {
-    $('.one').addClass('animate__flipInY');
-    $('.one>img').css('visibility', 'visible');
+$('.asi').on("click", function () {
+    $('.asi').addClass('animate__flipInY');
+    $('.asi>img').css('visibility', 'visible');
     setTimeout(
         function () {
-            $('.one').addClass('animate__zoomOut');
+            $('.asi').addClass('animate__zoomOut');
         }, 2500);
     setTimeout(
         function () {
-            // $('.one2').css('visibility', 'visible');
-            // $('.one2').addClass(`${inAnimate[5]}`);
-            $('.one').after(`<div class="item one2 animate__animated animate__flipInY" style="grid-area: 1 / 1 / 4 / 2;
-            background-color: #B2A4FF; text-align: center; padding: 4em;">יהב שלי, מתוקה שלי, נכדה שלי. מאחלת לך שתמשיכי להיות כזו
+            $('.asi').after(`<div class="item asi2 animate__animated animate__zoomIn" style="grid-area: 1 / 1 / 4 / 2;
+            background-color: #B2A4FF; text-align: center; padding: 5em;">יהב שלי, מתוקה שלי, נכדה שלי. מאחלת לך שתמשיכי להיות כזו
             מקסימה,
             שתהיי תלמידה טובה, אחות טובה, בת טובה להורים, שתצליחי בחטיבת הביניים, שזה כבר יותר מבית ספר יסודי,
             ולא
             לעשות שיעורים באמצע הלילה, איך שחוזרים הבייתה עושים שיעורים! מאחלת באהבה, סבתא אסי </div>`);
-            $('.one').remove();
+            $('.asi').remove();
         }, 3000);
 });
 
 
-$('.two').on("click", function () {
-    $('.two').addClass('animate__flipInY');
-    $('.two>img').css('visibility', 'visible');
+$('.pink1').on("click", function () {
+    $('.pink1').addClass('animate__flipInY');
+    $('.pink1>img').css('visibility', 'visible');
     setTimeout(
         function () {
-            $('.two').addClass('animate__zoomOut');
+            $('.pink1').addClass('animate__zoomOut');
         }, 2500);
     setTimeout(
         function () {
-            // $('.two2').css('visibility', 'visible');
-            // $('.two2').addClass(`${inAnimate[4]}`);
-            $('.two').after(`<div class="item two2 animate__animated animate__flipInY"  style="grid-area: 2 / 2 / 5 / 4;
+            // $('.pink12').css('visibility', 'visible');
+            // $('.pink12').addClass(`${inAnimate[4]}`);
+            $('.pink1').after(`<div class="item pink12 animate__animated animate__flipInY"  style="grid-area: 2 / 2 / 5 / 4;
             background-color: #FFB4B4;
             text-align: center;
-            padding: 5em;">יהבי פיצי פוצפוץ יוביוב גורי שלנו! הגעת לגיל מיוחד, מקסים ומאתגר.
-            בשבילנו תמיד תהיי פיצי, את יודעת... אבל את גם מתבגרת ואנחנו גדלים יחד איתך. את ילדה/נערה/פילה מקסימה
-            ומיוחדת במינה. אנחנו גאים בך ואי-אפשר לתאר כמה אנחנו אוהבים אותך. תמשיכי להיות את, ואנחנו נמשיך להיות
-            איתך כמו שאת תמיד. אוהבים, מעריכים, מחבקים ומנשקים: אבא, אמא, אדר ומיצי! </div>`);
-            $('.two').remove();
+            padding: 2em;"><img src="./images/Yahav.png" style="height: 200px; width:200px;"></div>`);
+            $('.pink1').remove();
         }, 3000);
 });
 
-$('.three').on('click', function () {
-    $('.three').addClass('animate__flipInY');
-    $('.three>img').css('visibility', 'visible');
-    // $('.three').remove();
+$('.tammy').on('click', function () {
+    $('.tammy').addClass('animate__flipInY');
+    $('.tammy>img').css('visibility', 'visible');
     setTimeout(
         function () {
-            $('.three').addClass('animate__zoomOut');
+            $('.tammy').addClass('animate__zoomOut');
         }, 2500);
 
     setTimeout(
         function () {
-            // $('.three2').css('visibility', 'visible');
-            // $('.three2').addClass(`${inAnimate[3]}`);
-            // $('.three').after(`<div class="item three2 animate__animated animate__zoomIn" style="grid-area: 1 / 3 / 4 / 4; background-color: #FFDEB4;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga incidunt accusantium
-            // magnam ut at architecto, nisi eligendi? Molestiae recusandae, sunt ducimus quo eaque cupiditate
-            // voluptates nostrum? Vel aut praesentium tempore.</div>`);
-            $('.three').after(`<div class="item three2  animate__animated animate__fadeInRight" style="grid-area: 1 / 4 / 5 / 5; background-color: #FFDEB4; text-align: center;
+            $('.tammy').after(`<div class="item tammy2  animate__animated animate__fadeInRight" style="grid-area: 1 / 4 / 5 / 5; background-color: #FFDEB4; text-align: center;
             padding: 1em;">Dear Yahav
             Please except our best wishes for reaching this important stage in your life. With the help of your
             parents, family and friends, I’m sure you will continue to grow into a wonderful person.
@@ -67,75 +56,66 @@ $('.three').on('click', function () {
             All the best health, wealth and joy in all your future endeavors.
             Love,
             Tammy @ Morgan</div>`);
-            $('.three').remove();
+            $('.tammy').remove();
         }, 3000);
 });
 
-$('.four').on("click", function () {
-    $('.four').addClass('animate__flipInY');
-    $('.four>img').css('visibility', 'visible');
+$('.adar').on("click", function () {
+    $('.adar').addClass('animate__flipInY');
+    $('.adar>img').css('visibility', 'visible');
     setTimeout(
         function () {
-            $('.four').addClass('animate__zoomOut');
+            $('.adar').addClass('animate__zoomOut');
         }, 2500);
     setTimeout(
         function () {
-            // $('.four2').css('visibility', 'visible');
-            // $('.four2').addClass(`${inAnimate[2]}`);
-            $('.four').after(`<div class="item four2 animate__animated animate__bounceInLeft" style="grid-area: 4 / 1 / 7 / 2;
-            background-color: #FFDEB4; text-align: center; padding: 3em;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+            $('.adar').after(`<div class="item adar2 animate__animated animate__bounceInLeft" style="grid-area: 4 / 1 / 7 / 2;
+            background-color: #FFDEB4; text-align: center; padding: 2em;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
             incidunt accusantium
             magnam ut at architecto, nisi eligendi? Molestiae recusandae, sunt ducimus quo eaque cupiditate
             voluptates nostrum? Vel aut praesentium tempore.</div>`);
-            $('.four').remove();
+            $('.adar').remove();
         }, 3000);
 });
 
-$('.five').on("click", function () {
-    $('.five').addClass('animate__flipInY');
-    $('.five>img').css('visibility', 'visible');
+$('.girlfriends').on("click", function () {
+    $('.girlfriends').addClass('animate__flipInY');
+    $('.girlfriends>img').css('visibility', 'visible');
     setTimeout(
         function () {
-            $('.five').addClass('animate__zoomOut');
+            $('.girlfriends').addClass('animate__zoomOut');
         }, 2500);
     setTimeout(
         function () {
-            // $('.five2').css('visibility', 'visible');
-            // $('.five2').addClass(`${inAnimate[1]}`);
-            $('.five').after(`<div class="item five2 animate__animated animate__fadeInLeft" style="grid-area: 5 / 3 / 8 / 5;
+            $('.girlfriends').after(`<div class="item girlfriends2 animate__animated animate__fadeInLeft" style="grid-area: 5 / 3 / 8 / 5;
             background-color: #B2A4FF;
             text-align: center;
-            padding: 3em;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
-            incidunt accusantium
-            magnam ut at architecto, nisi eligendi? Molestiae recusandae, sunt ducimus quo eaque cupiditate
-            voluptates nostrum? Vel aut praesentium tempore.</div>`);
-            $('.five').remove();
+            padding: 3em;"><img src="./images/Yahav.png" style="height: 200px; width:200px;"></div>`);
+            $('.girlfriends').remove();
         }, 3000);
 });
 
-var one = '.one';
-var two = '.two';
-var three = '.three';
-var four = '.four';
-var five = '.five';
-var six = '.six';
-var seven = '.seven';
-var eight = '.eight';
+// var one = '.one';
+// var two = '.two';
+// var three = '.three';
+// var four = '.four';
+// var five = '.five';
+// var six = '.six';
+// var seven = '.seven';
+// var eight = '.eight';
 
-var inAnimate = ['animate__bounceInUp', 'animate__bounceInLeft', 'animate__fadeInRight', 'animate__fadeInUpBig', 'animate__zoomIn', 'animate__fadeInLeft']
+// var inAnimate = ['animate__bounceInUp', 'animate__bounceInLeft', 'animate__fadeInRight', 'animate__fadeInUpBig', 'animate__zoomIn', 'animate__fadeInLeft']
 
-$('.eight').on("click", function () {
-    $('.eight').addClass('animate__flipInY');
-    $('.eight>img').css('visibility', 'visible');
+$('.naomi').on("click", function () {
+    $('.naomi').addClass('animate__flipInY');
+    $('.naomi>img').css('visibility', 'visible');
     setTimeout(
         function () {
-            $('.eight').addClass('animate__zoomOut');
+            $('.naomi').addClass('animate__zoomOut');
         }, 2500);
     setTimeout(
         function () {
-            // $('.eight2').css('visibility', 'visible');
-            // $('.eight2').addClass(`${inAnimate[1]}`);
-            $('.eight').after(`<div class="item eight2 animate__animated animate__bounceInLeft" style="grid-area: 7 / 1 / 9 / 2;
+            $('.naomi').after(`<div class="item naomi2 animate__animated animate__bounceInLeft" style="grid-area: 7 / 1 / 9 / 2;
             background-color: #B2A4FF;
             text-align: center;
             padding: 2em;">Yahav, you were my first granddaughter in Israel - from you I
@@ -148,25 +128,23 @@ $('.eight').on("click", function () {
             of you.
             With all my love,
             Safta Naomi</div>`);
-            $('.eight').remove();
+            $('.naomi').remove();
         }, 3000);
 });
 
-$('.nine').on("click", function () {
-    $('.nine').addClass('animate__flipInY');
-    $('.nine>img').css('visibility', 'visible');
+$('.shulamit').on("click", function () {
+    $('.shulamit').addClass('animate__flipInY');
+    $('.shulamit>img').css('visibility', 'visible');
     setTimeout(
         function () {
-            $('.nine').addClass('animate__zoomOut');
+            $('.shulamit').addClass('animate__zoomOut');
         }, 2500);
     setTimeout(
         function () {
-            // $('.nine2').css('visibility', 'visible');
-            // $('.nine2').addClass(`${inAnimate[1]}`);
-            $('.nine').after(`<div class="item nine2  animate__animated animate__zoomIn" style="grid-area: 8 / 4 / 12 / 5;
+            $('.shulamit').after(`<div class="item shulamit2  animate__animated animate__zoomIn" style="grid-area: 8 / 4 / 12 / 5;
             background-color: #FFB4B4;
             text-align: center;
-            padding: 3em;">יהב אחיינית ובת דודה אהובה ויקרה,
+            padding: 3em; padding-top: 7em;">יהב אחיינית ובת דודה אהובה ויקרה,
             מאחלים לך שתאהבי תמיד את מי שאת בדיוק כמו שאת,
             שתראי את הטוב והיופי סביבך,
             תלמדי לאמץ לעצמך את מה שאת מעריכה ומוקירה ולסנן החוצה את מה שפחות,
@@ -174,47 +152,43 @@ $('.nine').on("click", function () {
             שתהיה לך מטרה ברורה ותהני מהדרך אליה וגם אם לא תהיה שתשמחי על מה שיש.
             אוהבים אותך מאוד ומצפים לראות אותך ממשיכה לצמוח ולפרוח,
             רם, שולמית, אומה, אבישי ולב</div>`);
-            $('.nine').remove();
+            $('.shulamit').remove();
         }, 3000);
 });
 
-$('.ten').on("click", function () {
-    $('.ten').addClass('animate__flipInY');
-    $('.ten>img').css('visibility', 'visible');
+$('.family').on("click", function () {
+    $('.family').addClass('animate__flipInY');
+    $('.family>img').css('visibility', 'visible');
     setTimeout(
         function () {
-            $('.ten').addClass('animate__zoomOut');
+            $('.family').addClass('animate__zoomOut');
         }, 2500);
     setTimeout(
         function () {
-            // $('.ten2').css('visibility', 'visible');
-            // $('.ten2').addClass(`${inAnimate[1]}`);
-            $('.ten').after(`<div class="item ten2 animate__animated animate__fadeInUpBig" style="grid-area: 8 / 2 / 9 / 4;
+            $('.family').after(`<div class="item family2 animate__animated animate__fadeInUpBig" style="grid-area: 8 / 2 / 9 / 4;
             background-color: #FFDEB4;
             text-align: center;
-            padding: 2em;">יהבי פיצי פוצפוץ יוביוב גורי שלנו! הגעת לגיל מיוחד, מקסים ומאתגר.
+            padding: 5em; padding-top: 8em; height: 15em;">יהבי פיצי פוצפוץ יוביוב גורי שלנו! הגעת לגיל מיוחד, מקסים ומאתגר.
             בשבילנו תמיד תהיי פיצי, את יודעת... אבל את גם מתבגרת ואנחנו גדלים יחד איתך. את ילדה/נערה/פילה מקסימה
             ומיוחדת במינה. אנחנו גאים בך ואי-אפשר לתאר כמה אנחנו אוהבים אותך. תמשיכי להיות את, ואנחנו נמשיך להיות
             איתך כמו שאת תמיד. אוהבים, מעריכים, מחבקים ומנשקים: אבא, אמא, אדר ומיצי!</div>`);
-            $('.ten').remove();
+            $('.family').remove();
         }, 3000);
 });
 
-$('.eleven').on("click", function () {
-    $('.eleven').addClass('animate__flipInY');
-    $('.eleven>img').css('visibility', 'visible');
+$('.nadia').on("click", function () {
+    $('.nadia').addClass('animate__flipInY');
+    $('.nadia>img').css('visibility', 'visible');
     setTimeout(
         function () {
-            $('.eleven').addClass('animate__zoomOut');
+            $('.nadia').addClass('animate__zoomOut');
         }, 2500);
     setTimeout(
         function () {
-            // $('.eleven2').css('visibility', 'visible');
-            // $('.eleven2').addClass(`${inAnimate[1]}`);
-            $('.eleven').after(`<div class="item eleven2 animate__animated animate__bounceInUp" style=" grid-area: 9 / 1 / 13 / 3;
+            $('.nadia').after(`<div class="item nadia2 animate__animated animate__bounceInUp" style=" grid-area: 9 / 1 / 13 / 3;
             background-color: #FDF7C3;
             text-align: center;
-            padding: 2em;">יהב האהובה והיקרה שלנו,
+            padding: 5em;">יהב האהובה והיקרה שלנו,
             הגיע היום שלך,ואנחנו נרגשים, 12 שנים חלפו להן כל כך מהר, אנו מביטים בך ולא מאמינים כמה
             גדלת.
             הפכת מילדה מתוקה לנערה אצילית ומוכשרת ואת כולנו הקסמת.
@@ -228,125 +202,124 @@ $('.eleven').on("click", function () {
             ותמיד תזכרי שהשמיים הם הגבול...
             הדודים האוהבים
             תומר נדיה אורי ונינה</div>`);
-            $('.eleven').remove();
+            $('.nadia').remove();
         }, 3000);
 });
 
-$('.twelve').on("click", function () {
-    $('.twelve').addClass('animate__flipInY');
-    $('.twelve>img').css('visibility', 'visible');
+$('.purple1').on("click", function () {
+    $('.purple1').addClass('animate__flipInY');
+    $('.purple1>img').css('visibility', 'visible');
     setTimeout(
         function () {
-            $('.twelve').addClass('animate__zoomOut');
+            $('.purple1').addClass('animate__zoomOut');
         }, 2500);
     setTimeout(
         function () {
-            // $('.twelve2').css('visibility', 'visible');
-            // $('.twelve2').addClass(`${inAnimate[1]}`);
-            $('.twelve').after(`<div class="item twelve2 animate__animated animate__bounceInUp" style="grid-area: 9 / 3 / 11 / 4;
+            $('.purple1').after(`<div class="item purple12 animate__animated animate__bounceInUp" style="grid-area: 9 / 3 / 11 / 4;
             background-color: #B2A4FF;
             text-align: center;
-            padding: 2em;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
-            incidunt accusantium
-            magnam ut at architecto, nisi eligendi? Molestiae recusandae, sunt ducimus quo eaque cupiditate
-            voluptates nostrum? Vel aut praesentium tempore.</div>`);
-            $('.twelve').remove();
+            padding: 2em;"><img src="./images/Yahav.png" style="height: 100px; width:100px;"></div>`);
+            $('.purple1').remove();
         }, 3000);
 });
 
-$('.thirteen').on("click", function () {
-    $('.thirteen').addClass('animate__flipInY');
-    $('.thirteen>img').css('visibility', 'visible');
+$('.yellow1').on("click", function () {
+    $('.yellow1').addClass('animate__flipInY');
+    $('.yellow1>img').css('visibility', 'visible');
     setTimeout(
         function () {
-            $('.thirteen').addClass('animate__zoomOut');
+            $('.yellow1').addClass('animate__zoomOut');
         }, 2500);
     setTimeout(
         function () {
-            // $('.thirteen2').css('visibility', 'visible');
-            // $('.thirteen2').addClass(`${inAnimate[1]}`);
-            $('.thirteen').after(`<div class="item thirteen2 animate__animated animate__fadeInRight" style="grid-area: 12 / 4 / 16 / 5;
+            // $('.yellow12').css('visibility', 'visible');
+            // $('.yellow12').addClass(`${inAnimate[1]}`);
+            $('.yellow1').after(`<div class="item yellow12 animate__animated animate__fadeInRight" style="grid-area: 12 / 4 / 16 / 5;
             background-color: #FDF7C3;
             text-align: center;
-            padding: 2em;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
-            incidunt accusantium
-            magnam ut at architecto, nisi eligendi? Molestiae recusandae, sunt ducimus quo eaque cupiditate
-            voluptates nostrum? Vel aut praesentium tempore.</div>`);
-            $('.thirteen').remove();
+            padding: 2em;"><img src="./images/Yahav.png" style="height: 300px; width:300px;"></div>`);
+            $('.yellow1').remove();
         }, 3000);
 });
 
-
-
-$('.sixteen').on("click", function () {
-    $('.sixteen').addClass('animate__flipInY');
-    $('.sixteen>img').css('visibility', 'visible');
+$('.mizi').on("click", function () {
+    $('.mizi').addClass('animate__flipInY');
+    $('.mizi>img').css('visibility', 'visible');
     setTimeout(
         function () {
-            $('.sixteen').addClass('animate__zoomOut');
+            $('.mizi').addClass('animate__zoomOut');
         }, 2500);
     setTimeout(
         function () {
-            $('.sixteen2').css('visibility', 'visible');
-            $('.sixteen2').addClass(`${inAnimate[5]}`);
+            // $('.mizi2').css('visibility', 'visible');
+            // $('.mizi2').addClass(`${inAnimate[1]}`);
+            $('.mizi').after(`<div class="item mizi2  animate__animated animate__bounceInUp" style="grid-area: 13 / 2 / 16 / 3;
+            background-color: #FFB4B4;
+            text-align: center;
+            padding: 5em;">יהבי, המיאון מזל טוב! ממני, מיצי</div>`);
+            $('.mizi').remove();
         }, 3000);
 });
 
-$('.seventeen').on("click", function () {
-    $('.seventeen').addClass('animate__flipInY');
-    $('.seventeen>img').css('visibility', 'visible');
+$('.roni').on("click", function () {
+    $('.roni').addClass('animate__flipInY');
+    $('.roni>img').css('visibility', 'visible');
     setTimeout(
         function () {
-            $('.seventeen').addClass('animate__zoomOut');
+            $('.roni').addClass('animate__zoomOut');
         }, 2500);
     setTimeout(
         function () {
-            $('.seventeen2').css('visibility', 'visible');
-            $('.seventeen2').addClass(`${inAnimate[5]}`);
+            // $('.roni2').css('visibility', 'visible');
+            // $('.roni2').addClass(`${inAnimate[1]}`);
+            $('.roni').after(`<div class="item roni2  animate__animated animate__zoomIn" style="grid-area: 11 / 3 / 15 / 4;
+            background-color: #FFDEB4;
+            text-align: center;
+            padding: 3em">יוביוב יקרה
+            את ילדה מקסימה חכמה ומלאת אנרגיה
+            אנחנו מאוד אוהבים אותך ומחזיקים ממך שתגדלי ותהיי לנערה ואשה יפיפיה מבפנים ומבחוץ.
+            תמשיכי להיות סקרנית להתפתח לרקוד ולהנות מכל מה שיש לחיים היפים האלו להציע לך.
+            ביחד עם אדר ואמא ואבא המדהימים שלך אתם משפחה נפלאה וטובה
+            ותמיד הכי כייף לבוא אליכם ולהיות אתכם ביחד
+            אוהבים ותמיד כאן בשבילך
+            רוני שיה מורי נטלי מיקה ואיב💙❤.</div>`);
+            $('.roni').remove();
         }, 3000);
 });
 
-$('.eighteen').on("click", function () {
-    $('.eighteen').addClass('animate__flipInY');
-    $('.eighteen>img').css('visibility', 'visible');
+$('.family2').on("click", function () {
+    $('.family2').addClass('animate__flipInY');
+    $('.family2>img').css('visibility', 'visible');
     setTimeout(
         function () {
-            $('.eighteen').addClass('animate__zoomOut');
+            $('.family2').addClass('animate__zoomOut');
         }, 2500);
     setTimeout(
         function () {
-            $('.eighteen2').css('visibility', 'visible');
-            $('.eighteen2').addClass(`${inAnimate[5]}`);
+            $('.family2').after(`<div class="item family22 animate__animated animate__fadeInUpBig" style="grid-area: 14 / 1 / 16 / 2;
+            background-color: #FFDEB4;
+            text-align: center;
+            padding-top: 2em;"><img src="./images/Yahav.png" style="height: 300px; width:300px;"></div>`);
+            $('.family2').remove();
         }, 3000);
 });
 
-$('.nineteen').on("click", function () {
-    $('.nineteen').addClass('animate__flipInY');
-    $('.nineteen>img').css('visibility', 'visible');
+$('.purple2').on("click", function () {
+    $('.purple2').addClass('animate__flipInY');
+    $('.purple2>img').css('visibility', 'visible');
     setTimeout(
         function () {
-            $('.nineteen').addClass('animate__zoomOut');
+            $('.purple2').addClass('animate__zoomOut');
         }, 2500);
     setTimeout(
         function () {
-            $('.nineteen2').css('visibility', 'visible');
-            $('.nineteen2').addClass(`${inAnimate[5]}`);
+            $('h1').after('<img src="./images/Yahav.png" class="animate__animated animate__fadeIn animate__flip" style="height: 100vh; width:100vh;">')
+
+            $('.container').remove();
+            $('.purple2').remove();
         }, 3000);
 });
 
-$('.thirteen').on("click", function () {
-    $('.thirteen').addClass('animate__flipInY');
-    $('.thirteen>img').css('visibility', 'visible');
-    setTimeout(
-        function () {
-            $('.thirteen').addClass('animate__zoomOut');
-        }, 2500);
-    setTimeout(
-        function () {
-            $('.thirteen2').css('visibility', 'visible');
-            $('.thirteen2').addClass(`${inAnimate[5]}`);
-        }, 3000);
-});
 
 
 
