@@ -8,7 +8,7 @@ $('.asi').on("click", function () {
     setTimeout(
         function () {
             $('.asi').after(`<div class="item asi2 animate__animated animate__zoomIn" style="grid-area: 1 / 1 / 4 / 2;
-            background-color: #B2A4FF; text-align: center; padding: 2em;">יהב שלי, מתוקה שלי, נכדה שלי. מאחלת לך שתמשיכי להיות כזו
+            background-color: #B2A4FF; text-align: center; padding: 2em; height: 250px;">יהב שלי, מתוקה שלי, נכדה שלי. מאחלת לך שתמשיכי להיות כזו
             מקסימה,
             שתהיי תלמידה טובה, אחות טובה, בת טובה להורים, שתצליחי בחטיבת הביניים, שזה כבר יותר מבית ספר יסודי,
             ולא
@@ -32,7 +32,7 @@ $('.pink1').on("click", function () {
             $('.pink1').after(`<div class="item pink12 animate__animated animate__flipInY"  style="grid-area: 2 / 2 / 5 / 4;
             background-color: #FFB4B4;
             text-align: center;
-            padding: 2em; height: 220px;"><img src="./images/Yahav.png" style="height: 200px; width:200px;"></div>`);
+            padding: 2em; height: 250px;"><img src="./images/Yahav.png" style="height: 200px; width:200px;"></div>`);
             $('.pink1').remove();
         }, 3000);
 });
@@ -48,7 +48,7 @@ $('.tammy').on('click', function () {
     setTimeout(
         function () {
             $('.tammy').after(`<div class="item tammy2  animate__animated animate__fadeInRight" style="grid-area: 1 / 4 / 5 / 5; background-color: #FFDEB4; text-align: center;
-            padding: 1em; height: 350px;">Dear Yahav
+            padding: 1em; height: 370px;">Dear Yahav
             Please except our best wishes for reaching this important stage in your life. With the help of your
             parents, family and friends, I’m sure you will continue to grow into a wonderful person.
             Morgan and I are sure you will have a great time celebrating and wish we could be there to celebrate

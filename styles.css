@@ -40,6 +40,7 @@ audio {
 .asi {
     grid-area: 1 / 1 / 4 / 2;
     background-color: #B2A4FF;
+    height: 300px;
 }
 
 .asi>img {
@@ -57,7 +58,7 @@ audio {
 .pink1 {
     grid-area: 2 / 2 / 5 / 4;
     background-color: #FFB4B4;
-
+    height: 300px;
 }
 
 .pink1>img {
@@ -188,6 +189,7 @@ audio {
 .nadia {
     grid-area: 9 / 1 / 13 / 3;
     background-color: #FDF7C3;
+    height: 400px;
 }
 
 
@@ -253,6 +255,7 @@ audio {
 .roni {
     grid-area: 11 / 3 / 15 / 4;
     background-color: #FFDEB4;
+    height: 390px;
 }
 
 .roni>img {
