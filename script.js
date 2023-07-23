@@ -8,7 +8,7 @@ $('.asi').on("click", function () {
     setTimeout(
         function () {
             $('.asi').after(`<div class="item asi2 animate__animated animate__zoomIn" style="grid-area: 1 / 1 / 4 / 2;
-            background-color: #B2A4FF; text-align: center; padding: 5em;">יהב שלי, מתוקה שלי, נכדה שלי. מאחלת לך שתמשיכי להיות כזו
+            background-color: #B2A4FF; text-align: center; padding: 2em;">יהב שלי, מתוקה שלי, נכדה שלי. מאחלת לך שתמשיכי להיות כזו
             מקסימה,
             שתהיי תלמידה טובה, אחות טובה, בת טובה להורים, שתצליחי בחטיבת הביניים, שזה כבר יותר מבית ספר יסודי,
             ולא
@@ -32,7 +32,7 @@ $('.pink1').on("click", function () {
             $('.pink1').after(`<div class="item pink12 animate__animated animate__flipInY"  style="grid-area: 2 / 2 / 5 / 4;
             background-color: #FFB4B4;
             text-align: center;
-            padding: 2em;"><img src="./images/Yahav.png" style="height: 200px; width:200px;"></div>`);
+            padding: 2em; height: 220px;"><img src="./images/Yahav.png" style="height: 200px; width:200px;"></div>`);
             $('.pink1').remove();
         }, 3000);
 });
@@ -48,7 +48,7 @@ $('.tammy').on('click', function () {
     setTimeout(
         function () {
             $('.tammy').after(`<div class="item tammy2  animate__animated animate__fadeInRight" style="grid-area: 1 / 4 / 5 / 5; background-color: #FFDEB4; text-align: center;
-            padding: 1em;">Dear Yahav
+            padding: 1em; height: 350px;">Dear Yahav
             Please except our best wishes for reaching this important stage in your life. With the help of your
             parents, family and friends, I’m sure you will continue to grow into a wonderful person.
             Morgan and I are sure you will have a great time celebrating and wish we could be there to celebrate
@@ -90,7 +90,7 @@ $('.girlfriends').on("click", function () {
             $('.girlfriends').after(`<div class="item girlfriends2 animate__animated animate__fadeInLeft" style="grid-area: 5 / 3 / 8 / 5;
             background-color: #B2A4FF;
             text-align: center;
-            padding: 3em;"><img src="./images/Yahav.png" style="height: 200px; width:200px;"></div>`);
+            padding: 3em; height: 210px;"><img src="./images/Yahav.png" style="height: 200px; width:200px;"></div>`);
             $('.girlfriends').remove();
         }, 3000);
 });
@@ -218,7 +218,7 @@ $('.purple1').on("click", function () {
             $('.purple1').after(`<div class="item purple12 animate__animated animate__bounceInUp" style="grid-area: 9 / 3 / 11 / 4;
             background-color: #B2A4FF;
             text-align: center;
-            padding: 2em;"><img src="./images/Yahav.png" style="height: 100px; width:100px;"></div>`);
+            padding: 2em; height: 100px;"><img src="./images/Yahav.png" style="height: 100px; width:100px;"></div>`);
             $('.purple1').remove();
         }, 3000);
 });
@@ -275,7 +275,8 @@ $('.roni').on("click", function () {
             $('.roni').after(`<div class="item roni2  animate__animated animate__zoomIn" style="grid-area: 11 / 3 / 15 / 4;
             background-color: #FFDEB4;
             text-align: center;
-            padding: 3em">יוביוב יקרה
+            padding: 3em;
+            height: 230px;">יוביוב יקרה
             את ילדה מקסימה חכמה ומלאת אנרגיה
             אנחנו מאוד אוהבים אותך ומחזיקים ממך שתגדלי ותהיי לנערה ואשה יפיפיה מבפנים ומבחוץ.
             תמשיכי להיות סקרנית להתפתח לרקוד ולהנות מכל מה שיש לחיים היפים האלו להציע לך.

@@ -105,6 +105,7 @@ audio {
 .girlfriends {
     grid-area: 5 / 3 / 8 / 5;
     background-color: #B2A4FF;
+    height: 260px;
 }
 
 .girlfriends>img {
@@ -204,6 +205,7 @@ audio {
 .purple1 {
     grid-area: 9 / 3 / 11 / 4;
     background-color: #B2A4FF;
+    height: 200px;
 }
 
 .purple1>img {
