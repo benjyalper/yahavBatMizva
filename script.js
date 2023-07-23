@@ -70,10 +70,9 @@ $('.adar').on("click", function () {
     setTimeout(
         function () {
             $('.adar').after(`<div class="item adar2 animate__animated animate__bounceInLeft" style="grid-area: 4 / 1 / 7 / 2;
-            background-color: #FFDEB4; text-align: center; padding: 2em;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
-            incidunt accusantium
-            magnam ut at architecto, nisi eligendi? Molestiae recusandae, sunt ducimus quo eaque cupiditate
-            voluptates nostrum? Vel aut praesentium tempore.</div>`);
+            background-color: #FFDEB4; text-align: center; padding: 2em;">ליהב
+            מזל טוב יום הולדת שמח את האחות הכי טובה בעולם אני מאחל לך אושר בריאות שמחה אהבה ותמשיכי להיות כמוך
+            באהבה אדר</div>`);
             $('.adar').remove();
         }, 3000);
 });
