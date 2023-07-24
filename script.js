@@ -313,8 +313,8 @@ $('.purple2').on("click", function () {
         }, 2500);
     setTimeout(
         function () {
-            $('h1').after('<img src="./images/Yahav.png" class="animate__animated animate__fadeIn animate__flip" style="height: 100vh; width:100vh;">')
-
+            $('h1').after('<img src="./images/Yahav.png" class="animate__animated animate__fadeIn animate__flip" style="height: 100vh; width:100vh; text-align="center">')
+            $('h3').remove();
             $('.container').remove();
             $('.purple2').remove();
         }, 3000);
